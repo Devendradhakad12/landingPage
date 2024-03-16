@@ -10,7 +10,7 @@ export default function ThirdSection() {
         <section className="flex  justify-center min-h-screen bg-[#B1ABF4] p-4">
             <div className="flex md:flex-row flex-col pt-[30px] items-center gap-8">
                 <h1 className="lg:text-[63px] md:text-[50px] sm:text-[40px] text-[30px] font-[800] mb-4 xl:w-[75%] lg:leading-[72px] sm:leading-[50px] leading-[40px] sm:hidden flex w-[50%]">I'm intrigued. How does this work?</h1>
-                <div className="h-[100%] w-[50%] flex justify-center">
+                <div className="h-[100%] md:w-[50%] w-[100%] flex justify-center">
                         <CardTwo />
                 </div>
                 <div className="flex flex-col sm:items-start items-center justify-center w-[50%]">

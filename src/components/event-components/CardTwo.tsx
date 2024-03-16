@@ -3,8 +3,8 @@ import { FaMousePointer } from "react-icons/fa";
 export default function CardTwo() {
     return (
         <div className="bg-white p-8 text-black  -rotate-6 max-w-sm mx-auto rounded-lg">
-            <h1 className="text-3xl font-bold text-center mb-6">YOU JUST ORDERED A BUNDLE!</h1>
-            <div className="flex justify-center mb-6">
+            <h1 className="lg:text-[30px] md:text-[25px]  text-[20px] font-bold text-center mb-4">YOU JUST ORDERED A BUNDLE!</h1>
+            <div className="flex justify-center mb-4">
                 <FaMousePointer />
             </div>
             <ul className="list-decimal list-inside space-y-4">
@@ -14,7 +14,6 @@ export default function CardTwo() {
                     </div>
                     <div>
                         <h2 className="font-bold">Fill in your details to create an account.</h2>
-
                     </div>
                 </li>
                 <li className="flex items-start">
