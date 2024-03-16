@@ -9,79 +9,67 @@ export default function SeventhSection() {
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>How do you ensure brand consistency across posts?</span>
+                            <span>What age group is Cosmic Kids Club designed for?</span>
                         </summary>
                         <div className="px-4 pb-4">
                             <p className="text-gray-400">
-                                We have a team of experienced content creators that work closely with your brand guidelines to ensure
-                                consistency across all posts.
-                            </p>
-                        </div>
-                    </details>
-                    <details className="group border-b-2 border-white/30">
-                        <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
-                            < FaArrowDown /> 
-                            <span>What formats do you deliver the posts in?</span>
-                        </summary>
-                        <div className="px-4 pb-4">
-                            <p className="text-gray-400">
-                                Posts can be delivered in various formats including JPG, PNG, and PDF, depending on your needs.
+                                Cosmic Kids Club is designed for young minds aged 7-14 years.
                             </p>
                         </div>
                     </details>
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>Do you offer industry-specific content?</span>
+                            <span>What is the duration of the offer for membership?</span>
                         </summary>
                         <div className="px-4 pb-4">
                             <p className="text-gray-400">
-                                Yes, our content creation services are tailored to meet the specific needs of your industry.
+                                The offer is for the first year, and renewal will happen at the printed price with a renewal discount.
                             </p>
                         </div>
                     </details>
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>What's the communication process once I purchase a bundle?</span>
+                            <span>Is Cosmic Kids Club accessible on mobile devices?</span>
                         </summary>
                         <div className="px-4 pb-4">
                             <p className="text-gray-400">
-                                After purchasing a bundle, you will be assigned a project manager who will be your point of contact
-                                throughout the process.
+                                Yes, Cosmic Kids Club is a web-based application that is mobile responsive, allowing you to browse through it on mobile and tablet devices.
                             </p>
                         </div>
                     </details>
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>What if I'm not happy with my bundle?</span>
+                            <span>How will I receive notifications about events and updates?</span>
                         </summary>
                         <div className="px-4 pb-4">
                             <p className="text-gray-400">
-                                We offer revisions and adjustments to ensure you are completely satisfied with the final product.
+                                You will receive notifications on your registered email ID. Additionally, if you join our Cosmic Kids Club channel, you will also receive notifications.
                             </p>
                         </div>
                     </details>
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>How fast will I get my posts?</span>
+                            <span>Are the events, comics, and videos suitable for all ages?</span>
                         </summary>
                         <div className="px-4 pb-4">
                             <p className="text-gray-400">
-                                Delivery times vary based on the scope of the project, but we always aim to deliver as quickly as
-                                possible without compromising quality.
+                                The events, collections of comics, and videos on Cosmic Kids Club are grade and age-specific.
                             </p>
                         </div>
                     </details>
                     <details className="group border-b-2 border-white/30">
                         <summary className="flex justify-start gap-[20px] items-center p-4 cursor-pointer">
                             < FaArrowDown />
-                            <span>Can I get editable templates?</span>
+                            <span>How can I seek support or assistance?</span>
                         </summary>
                         <div className="px-4 pb-4">
-                            <p className="text-gray-400">Yes, we can provide editable templates for your posts if required.</p>
+                            <p className="text-gray-400">
+                                For any support or assistance, you may write to us at info@cosmickids.club.
+                            </p>
                         </div>
                     </details>
                 </div>
