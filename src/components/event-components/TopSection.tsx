@@ -11,17 +11,23 @@ export default function TopSection() {
             <div>
                 <div className="max-w-6xl mx-auto flex justify-between items-center">
                     <div>
-                        <h1 className="lg:text-[100px] sm:text-[60px] text-[45px] font-[900] lg:leading-[120px] sm:leading-[80px] leading-[50px]">
-                            CONTENT
-                            <br />
-                            ON DEMAND
-                        </h1>
+                        <div className="flex justify-between">
+                            <h1 className="lg:text-[100px] sm:text-[60px] text-[45px] font-[900] lg:leading-[120px] sm:leading-[80px] leading-[50px]">
+                                Cosmic
+                                <br />
+                                Kids Club
+                            </h1>
+                            {/*                    <div className=" border-2 w-[35%] md:h-[200px] h-[100px] border-black">
+
+                            </div> */}
+                        </div>
                         <p className="lg:text-[48px] md:text-[30px] text-[20px] mt-4 mb-6 font-[700] lg:leading-[64px] md:leading-[40px] leading-[30px]">
-                            We take your content stress away, so
-                            <br />
-                            you can focus on the bigger picture.
+                            Where every child explores space and nurtures curiosity,
+                            fostering their scientific temperament from an early age
+
                         </p>
-                        <Button classNames="bg-red-600 hover:bg-red-700 text-white font-[700] lg:text-[18px] md:text-[16px] text-[14px] tracking-widest md:px-7 px-4" text="   Check out bundles" />
+
+                        <div>Yearly Membership – <button className="hover:scale-105 transition-all duration-300 bg-[#E34135] px-5 xl:text-[16px] md:text-[15px] sm:text-[14px] text-[13px] py-2 text-white rounded-full"><span className=" line-through">₹2499/-</span> ₹999/-</button></div>
                     </div>
                 </div>
             </div>

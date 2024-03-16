@@ -11,20 +11,20 @@ export default function SecondSection() {
             <div className="max-w-7xl  w-full flex lg:flex-row flex-col   gap-8">
                 <div className="flex flex-col justify-center text-white space-y-6 lg:w-[55%] w-[100%] px-[20px]">
                     <h1 className="xl:text-[64px] lg:text-[50px] md:text-[40px] text-[36px] font-bold leading-tight">
-                        5, 4, 3, 2, 1
+                        Who are the minds
                         <br />
-                        That's how quickly
-                        <br />
-                        we turn around
-                        <br />
-                        your IG feed!
+                        behind Cosmic Kids Club?
                     </h1>
                     <p className="lg:text-[24px] md:text-[20px] text-[17px] font-[100] lg:w-full w-[80%] ">
-                        Take control of your content universe. You decide when, what, and how often to post. Whether you're a
-                        business owner keeping up your company page or a social media manager buried under client feeds, we've got
-                        you.
+                        At Cosmic Kids Club, our mission is to ignite curiosity
+                        and foster scientific literacy among children.
+                        Our dedicated team comprises passionate astronomers
+                        and space enthusiasts who are committed to making learning
+                        an engaging and inspiring adventure for young minds.
+
                     </p>
-                    <Button classNames="w-[30%] bg-[#A3DE9B] text-black hover:bg-[#e2e8f0]" text="Check out bundles" />
+
+                    <div>CTA- Yearly Membership -  <button className="bg-[#A3DE9B] hover:scale-105 transition-all duration-300  px-5 xl:text-[16px] md:text-[15px] sm:text-[14px] text-[13px] py-2 text-black rounded-full"><span className=" line-through">₹2499/-</span> ₹999/-</button></div>
                 </div>
                 <div className="space-y-4 pl-[60px] relative sm:h-[500px] h-[430px] lg:w-[45%] w-[100%]">
                     <Image src={BusinessOwenerImage} alt="" className=" absolute top-0 lg:w-[50%] sm:w-[30%] w-[40%] lg:left-0 left-[25%] " />

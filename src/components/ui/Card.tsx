@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import { PiSealCheckFill } from "react-icons/pi";
 
 
-export default function Card({ heading, description, list, img, price, btnText }: { heading: string, description: string, list: string[], img: string | StaticImageData, price: String, btnText: string }) {
+export default function Card({ heading, description, list, img, price, priceWithDis, btnText }: { heading: string, description: string, list: string[], img: string | StaticImageData, price: String, btnText: string, priceWithDis: string }) {
     return (
         <div className="w-[412px] bg-white border border-gray-200 rounded-[22px] shadow relative mt-14">
             <Image src={img} alt="CardImg" className="absolute top-[-50px] w-[25%] left-[50%] translate-x-[-50%]" />
@@ -12,8 +12,14 @@ export default function Card({ heading, description, list, img, price, btnText }
                 <h5 className="mb-4 text-[26px] mt-14 font-[700] text-center">{heading}</h5>
                 <p className="w-[90%] text-center mt-2 mx-auto">{description}</p>
                 <div className="flex  justify-center text-gray-900 items-center mt-6">
-                    <span className="text-3xl font-semibold">$</span>
-                    <span className="text-5xl font-extrabold tracking-tight">{price}</span>
+                    <span className=" line-through">
+                        ₹{price}/-
+                    </span>
+                    &nbsp;&nbsp;
+                    <span>
+                        <span className="text-3xl font-semibold">₹</span>
+                        <span className="text-5xl font-extrabold tracking-tight">{priceWithDis}/-</span>
+                    </span>
                 </div>
                 <ul role="list" className="space-y-5 my-7">
                     {
